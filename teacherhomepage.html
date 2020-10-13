@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form class="" action="addmaterial.php" method="post">
+      <p>Enter name of chapter</p>
+      <input type="text" name="name" id="name">
+      <p>STANDARD</p>
+      <input type="radio" id="11" name="standard" value="11">
+      <label for="11">11</label><br>
+      <input type="radio" id="12" name="standard" value="12">
+      <label for="12">12</label><br>
+      <p>SUBJECT</p>
+      <select id="subject" name="subject">
+        <option value="physics">PHYSICS</option>
+        <option value="chemistry">CHEMISTRY</option>
+        <option value="maths">MATHS</option>
+        <option value="biology">BIOLOGY</option>
+      </select>
+      <p>TYPE</p>
+      <input type="radio" id="module" name="type" value="module">
+      <label for="module">MODULE</label><br>
+      <input type="radio" id="test" name="type" value="test">
+      <label for="test">TEST</label><br>
+      <p>FILE</p>
+      <input type="file" name="file" value="file">
+      <input type="submit" name="submit" value="submit">
+    </form>
+  </body>
+</html>
